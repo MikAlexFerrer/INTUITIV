@@ -1,0 +1,219 @@
+body {
+  background: rgb(166, 219, 204);
+  background: radial-gradient(
+    circle,
+    rgba(166, 219, 204, 0.3799894957983193) 0%,
+    rgba(11, 212, 174, 0.5060399159663865) 100%
+  );
+  font-family: "Barlow Semi Condensed", sans-serif;
+  height: auto;
+  margin: 50px;
+}
+html {
+  width: 1500px;
+  height: 1000px;
+}
+.whiteText {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: antiquewhite !important;
+}
+#wrap {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#wrapper2 > div {
+  flex: 1;
+  min-width: 100px;
+  
+}
+
+
+
+
+.Titlebox {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  color: #000000;
+  font-size: 150px;
+}
+.box {
+  margin: auto;
+  position: relative;
+  top: 100px;
+  background-size: auto 100%;
+  background-position: center;
+  width: 80%;
+  max-width: 2200px;
+  min-height: 200px;
+  max-height: 1800px;
+  border-radius: 20px;
+}
+
+.paintBox {
+  position: relative;
+  text-align: center;
+  height: 500px;
+  width: 100px;
+}
+
+.imgDown {
+  min-height: 300px;
+  width: auto;
+  position: relative;
+  border-radius: 10px;
+}
+.imgInfo {
+  max-height: 75px;
+  width: auto;
+  position: relative;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  position: relative;
+
+  color: #000000;
+}
+vg {
+  position: relative;
+  top: 30px;
+  color: #000000;
+  font-size: 20px;
+}
+
+dg {
+  color: #48556a;
+}
+
+#wrapper3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#wrapper3 > div {
+  flex: 1;
+  border: 1px;
+}
+.PageTitle {
+  position: absolute;
+  top: 50px;
+  left:150px;
+  color: #000000;
+  font-size: 120px;
+}
+.Painting {
+  position: relative;
+  top: 100px;
+  left: 10%;
+  width: 1000px;
+  height: 800px;
+  margin-bottom: 50px;
+  margin-right: 700px;
+}
+.Container {
+  position: relative;
+  top: -50px;
+  min-width: 50px;
+  max-width: 1800px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  text-align: justify;
+  font-size: 36px;
+}
+.imgLogo {
+  height: 30px;
+  width: auto;
+  position: relative;
+  border-radius: 10px;
+  margin: 3px;
+}
+.RightImg {
+  position: absolute;
+  top: 250px;
+  right: 15%;
+  width: 400px;
+  height: 500px;
+  margin-right: 50px;
+}
+@media screen and (max-width: 1300px) {
+  .AUText {
+    width: 100%;
+    font-size: 18px;
+    margin: auto;
+    position: relative;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .imgDisp {
+    display: none !important;
+  }
+}
+
+.AUText {
+  position: relative;
+  top: 150px;
+  min-width: 200px;
+  max-width: 2500px;
+  margin-bottom: 400px;
+  margin-right: 50%;
+  text-align: justify;
+  font-size: 36px;
+}
+
+.Subtitle {
+  position: absolute;
+  top: 350px;
+  left:150px;
+  font-size: 56px;
+width:500px;
+  text-align: justify;
+
+}
+.Description {
+  font-size: 24px;
+}
+.whiteText {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: antiquewhite !important;
+}
+.cDisp {
+  margin-top: 150px;
+  width: 1500px;
+}
+
+.imgDisp {
+  min-height: 600px;
+  max-height: auto;
+  width: auto;
+  position: relative;
+  border-radius: 10px;
+  top: 100px;
+  right: 100px;
+  margin-bottom: 10%;
+}
+.BidTable {
+  position: relative;
+  top: 170px;
+  margin-bottom: 300px;
+}
+.btnbox {
+  margin: auto;
+  position: relative;
+  top: 200px;
+  text-align: center;
+  width: auto;
+  height: 100px;
+  margin-bottom: 300px;
+}
+
+#GFG {
+  color: #000000;
+  text-decoration: none;
+}
